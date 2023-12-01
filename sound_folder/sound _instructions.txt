@@ -1,0 +1,13 @@
+//add these together under all the "#include"s
+//sound
+#include "windows.h"
+#include "mmsystem.h"
+#pragma comment(lib, "winmm.lib")
+
+
+
+//right after int main(){ add:
+PlaySound(TEXT("theme1.wav"), NULL, SND_FILENAME | SND_ASYNC | SND_LOOP);
+
+//place the music file in bin!! must be wiith the .exe of the project 
+//music file is in github. it is theme1.wav (fo now)
