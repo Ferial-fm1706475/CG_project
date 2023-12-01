@@ -1,0 +1,13 @@
+﻿  Mesh.cpp
+  boggymanMAIN.cpp
+C:\Users\eelba\Documents\CG_CMPS373_PRJ\CG_CMPS373_PRJ\BoggyMan\src\ModelLoad.h(182,52): error C2039: 'path': is not a member of 'Texture'
+C:\Users\eelba\Documents\CG_CMPS373_PRJ\CG_CMPS373_PRJ\BoggyMan\src\Texture.h(8): message : see declaration of 'Texture'
+C:\Users\eelba\Documents\CG_CMPS373_PRJ\CG_CMPS373_PRJ\BoggyMan\src\ModelLoad.h(192,25): error C2039: 'id': is not a member of 'Texture'
+C:\Users\eelba\Documents\CG_CMPS373_PRJ\CG_CMPS373_PRJ\BoggyMan\src\Texture.h(8): message : see declaration of 'Texture'
+C:\Users\eelba\Documents\CG_CMPS373_PRJ\CG_CMPS373_PRJ\BoggyMan\src\ModelLoad.h(193,24): error C2248: 'Texture::type': cannot access private member declared in class 'Texture'
+C:\Users\eelba\Documents\CG_CMPS373_PRJ\CG_CMPS373_PRJ\BoggyMan\src\Texture.h(22): message : see declaration of 'Texture::type'
+C:\Users\eelba\Documents\CG_CMPS373_PRJ\CG_CMPS373_PRJ\BoggyMan\src\Texture.h(8): message : see declaration of 'Texture'
+C:\Users\eelba\Documents\CG_CMPS373_PRJ\CG_CMPS373_PRJ\BoggyMan\src\ModelLoad.h(194,25): error C2039: 'path': is not a member of 'Texture'
+C:\Users\eelba\Documents\CG_CMPS373_PRJ\CG_CMPS373_PRJ\BoggyMan\src\Texture.h(8): message : see declaration of 'Texture'
+  texture.cpp
+  Generating Code...
