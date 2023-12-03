@@ -60,7 +60,10 @@ void FPSCamera::setPosition(const glm::vec3& position)
 {
 	mPosition = position;
 }
-
+glm::vec3 FPSCamera::getPosition()
+{
+	return mPosition;
+}
 void FPSCamera::rotate(float yaw, float pitch)
 {
 	mYaw += glm::radians(yaw);

@@ -1,48 +1,5 @@
-﻿  Camera.cpp
-  boggymanMAIN.cpp
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\ModelLoad.h(261,28): error C2061: syntax error: identifier 'aiNode'
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\ModelLoad.h(262,28): error C2061: syntax error: identifier 'aiMesh'
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\ModelLoad.h(263,57): error C2061: syntax error: identifier 'aiMaterial'
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\boggymanMAIN.cpp(68,7): error C2512: 'Mesh': no appropriate default constructor available
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\Mesh.h(34,7): message : see declaration of 'Mesh'
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\boggymanMAIN.cpp(71,26): error C2065: 'meshes': undeclared identifier
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\boggymanMAIN.cpp(71,26): error C2672: 'begin': no matching overloaded function found
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\boggymanMAIN.cpp(71,34): error C2893: Failed to specialize function template 'unknown-type std::begin(_Container &)'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xutility(2169): message : see declaration of 'std::begin'
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\boggymanMAIN.cpp(71,34): message : With the following template arguments:
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\boggymanMAIN.cpp(71,34): message : '_Container=unknown-type'
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\boggymanMAIN.cpp(71,34): error C2784: 'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'unknown-type'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\initializer_list(57): message : see declaration of 'std::begin'
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\boggymanMAIN.cpp(71,26): error C2672: 'end': no matching overloaded function found
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\boggymanMAIN.cpp(71,34): error C2893: Failed to specialize function template 'unknown-type std::end(_Container &)'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xutility(2179): message : see declaration of 'std::end'
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\boggymanMAIN.cpp(71,34): message : With the following template arguments:
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\boggymanMAIN.cpp(71,34): message : '_Container=unknown-type'
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\boggymanMAIN.cpp(71,34): error C2784: 'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'unknown-type'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\initializer_list(63): message : see declaration of 'std::end'
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\boggymanMAIN.cpp(71,34): error C3536: '<begin>$L0': cannot be used before it is initialized
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\boggymanMAIN.cpp(71,34): error C3536: '<end>$L0': cannot be used before it is initialized
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\boggymanMAIN.cpp(71,32): error C2100: illegal indirection
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\boggymanMAIN.cpp(72,13): error C2065: 'shader': undeclared identifier
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\boggymanMAIN.cpp(109,10): error C2039: 'modelDraw': is not a member of 'ModelLoad'
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\ModelLoad.h(251): message : see declaration of 'ModelLoad'
-  Mesh.cpp
-  ShaderProgram.cpp
-  ModelLoad.cpp
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\ModelLoad.h(261,28): error C2061: syntax error: identifier 'aiNode'
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\ModelLoad.h(262,28): error C2061: syntax error: identifier 'aiMesh'
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\ModelLoad.h(263,57): error C2061: syntax error: identifier 'aiMaterial'
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\ModelLoad.cpp(26,40): error C2660: 'ModelLoad::processNode': function does not take 2 arguments
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\ModelLoad.h(261,10): message : see declaration of 'ModelLoad::processNode'
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\ModelLoad.cpp(29,65): error C2511: 'void ModelLoad::processNode(aiNode *,const aiScene *)': overloaded member function not found in 'ModelLoad'
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\ModelLoad.h(251): message : see declaration of 'ModelLoad'
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\ModelLoad.cpp(32,49): error C2660: 'ModelLoad::processMesh': function does not take 2 arguments
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\ModelLoad.h(262,10): message : see declaration of 'ModelLoad::processMesh'
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\ModelLoad.cpp(36,46): error C2660: 'ModelLoad::processNode': function does not take 2 arguments
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\ModelLoad.h(261,10): message : see declaration of 'ModelLoad::processNode'
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\ModelLoad.cpp(40,65): error C2511: 'Mesh ModelLoad::processMesh(aiMesh *,const aiScene *)': overloaded member function not found in 'ModelLoad'
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\ModelLoad.h(251): message : see declaration of 'ModelLoad'
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\ModelLoad.cpp(50,120): error C2511: 'std::vector<Texture,std::allocator<Texture>> ModelLoad::loadMaterialTextures(aiMaterial *,aiTextureType,const std::string &)': overloaded member function not found in 'ModelLoad'
-C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-solutuion\BoggyMan\src\ModelLoad.h(251): message : see declaration of 'ModelLoad'
-  texture.cpp
-  Generating Code...
+﻿  boggymanMAIN.cpp
+C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-ferial\BoggyMan\src\boggymanMAIN.cpp(141,15): error C2039: 'Draw': is not a member of 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-ferial\common\include\GLM\fwd.hpp(520): message : see declaration of 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-ferial\BoggyMan\src\boggymanMAIN.cpp(260,46): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Sentinel\Desktop\CG-repo\CG_project\project-ferial\BoggyMan\src\boggymanMAIN.cpp(259,58): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data

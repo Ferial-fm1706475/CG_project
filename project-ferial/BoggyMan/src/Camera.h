@@ -54,7 +54,7 @@ public:
 	virtual void setPosition(const glm::vec3& position);
 	virtual void rotate(float yaw, float pitch);
 	virtual void move(const glm::vec3& offestpos);
-
+	virtual glm::vec3 getPosition();
 private:
 	void updateCameraVector();
 };

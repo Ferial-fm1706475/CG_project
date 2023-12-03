@@ -21,21 +21,24 @@
   <ItemGroup>
     <ClCompile Include="src\Camera.cpp" />
     <ClCompile Include="src\boggymanMAIN.cpp" />
-    <ClCompile Include="src\Mesh.cpp" />
     <ClCompile Include="src\ShaderProgram.cpp" />
-    <ClCompile Include="src\ModelLoad.cpp" />
-    <ClCompile Include="src\texture.cpp" />
+    <ClCompile Include="src\Utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Camera.h" />
-    <ClInclude Include="src\ModelLoad.h" />
+    <ClInclude Include="src\Model.h" />
     <ClInclude Include="src\Mesh.h" />
     <ClInclude Include="src\ShaderProgram.h" />
-    <ClInclude Include="src\texture.h" />
+    <ClInclude Include="src\Utils.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="res\models\ghost.blend" />
+    <None Include="res\models\ghost1.mtl" />
     <None Include="res\shaders\Projection.vert" />
     <None Include="res\shaders\Transform.frag" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="res\models\ghost1.obj" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

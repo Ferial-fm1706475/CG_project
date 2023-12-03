@@ -36,6 +36,7 @@ public:
 	void setUniform(const GLchar* name, const glm::vec4& v);
 	void setUniform(const GLchar* name, const glm::mat4& v);
 
+
 private:
 
 	string fileToString(const string& filename);

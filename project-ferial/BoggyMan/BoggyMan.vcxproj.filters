@@ -21,16 +21,10 @@
     <ClCompile Include="src\boggymanMAIN.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Mesh.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\ShaderProgram.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\texture.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\ModelLoad.cpp">
+    <ClCompile Include="src\Utils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -44,15 +38,20 @@
     <ClInclude Include="src\ShaderProgram.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\texture.h">
+    <ClInclude Include="src\Model.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\ModelLoad.h">
+    <ClInclude Include="src\Utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="res\shaders\Projection.vert" />
     <None Include="res\shaders\Transform.frag" />
+    <None Include="res\models\ghost.blend" />
+    <None Include="res\models\ghost1.mtl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="res\models\ghost1.obj" />
   </ItemGroup>
 </Project>
